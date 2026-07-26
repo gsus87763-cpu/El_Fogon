@@ -4,7 +4,7 @@
  *    npm run seed
  */
 require('dotenv').config();
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const pool = require('../config/db');
 
 const USUARIOS_PRUEBA = [
