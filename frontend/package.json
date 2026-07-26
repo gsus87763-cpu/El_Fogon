@@ -1,0 +1,32 @@
+{
+  "name": "el-fogon-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+<<<<<<< HEAD
+    "preview": "vite preview",
+    "start": "serve -s dist -l ${PORT:-4173}"
+=======
+    "preview": "vite preview"
+>>>>>>> 95bd126b1a9168cb1882c823374b03133151202d
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1",
+<<<<<<< HEAD
+    "recharts": "^2.12.7",
+    "serve": "^14.2.3"
+=======
+    "recharts": "^2.12.7"
+>>>>>>> 95bd126b1a9168cb1882c823374b03133151202d
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.1"
+  }
+}
